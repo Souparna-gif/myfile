@@ -2,7 +2,7 @@ const downloadBtn = document.querySelector(".download-btn");
 const fileLink = "https://github.com/Souparna-gif/Myfiles/raw/main/ControlSystem.pdf";
 const initTimer = () => {
     if(downloadBtn.classList.contains("disable-timer")) {
-        return location.href = window.open(url, "_blank");
+        return location.href = fileLink;
     }
     let timer = downloadBtn.dataset.timer;
     downloadBtn.classList.add("timer");
